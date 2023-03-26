@@ -63,7 +63,6 @@ public class {class_name}Service <left_brace>
 
 	public void excluir(Long codigo) <left_brace>
 		{lower_class_name}Repository.deleteById(codigo);
-
 	<right_brace>
 
 	public {class_name} atualizar(Long codigo, {class_name} {lower_class_name}) <left_brace>

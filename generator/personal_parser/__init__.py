@@ -8,7 +8,7 @@ def parsers():
         '--base',
         type=str,
         default=None,
-        help='Relativa path to main java package.',
+        help='Relative path to java main package.',
         required=True,
     )
     parser.add_argument(
